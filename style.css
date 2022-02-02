@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Girassol', cursive;
+    font-family: 'Merriweather', serif;
+}
+
+.maindiv{
+    width: 100%;
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo{
+    padding-left: 20px;
+    text-shadow: 2px 2px 3px grey;
+}
+
+.header nav{
+    padding-right: 20px;
+}
+
+.header #box1{
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-right: 10px; 
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 3px 2px grey;
+}
+
+.header #box2{
+    font-size: 18px;
+    padding: 5px; 
+    background-color: rgb(212, 119, 91);
+    color: rgb(70, 16, 16);
+}
+
+.main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    text-align: center;
+    color: rgb(70, 16, 16);
+}
+
+.firsthead h1{
+    padding-bottom: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+#span1{
+    font-size: 30px;
+    margin-top: 200px;
+    font-weight: lighter;
+}
+
+#span2{
+    font-size: 60px;
+    letter-spacing: 3px;
+    padding-top: 100px;
+}
+
+#span3{
+    font-size: 30px;
+    background-color: rgb(212, 119, 91);
+}
+
+.clock{
+    margin: 20px 0;
+    letter-spacing: 4px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button .black{
+    margin: 0 10px;
+    background-color: rgb(212, 125, 113);
+    padding: 2.5px;
+    outline: none;
+}
+
+.button .blue{
+    margin: 0 10px;
+    background-color: rgb(212, 125, 113);
+    padding: 2px;
+    outline: none;
+}
+
+.button .pink{
+    margin: 0 10px;
+    background-color: rgb(212, 125, 113);
+    padding: 2px;
+    outline: none;
+}
+
+
+.class{
+    color: rgb(218, 230, 245);
+}
